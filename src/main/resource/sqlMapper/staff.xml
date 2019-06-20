@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="staff">
+    <!--不指定parameterClass的类即为简单类型 -->
+    <select id="fandstaff" resultClass="cn.edu.uestc.test.jdbc.Staff">
+        SELECT * FROM staff where id = #value#
+    </select>
+    <select id="findname" resultClass="java.lang.Integer">
+        select count(id) from staff where name=#value#
+    </select>
+</sqlMap >

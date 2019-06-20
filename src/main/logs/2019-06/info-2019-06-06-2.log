@@ -1,0 +1,3 @@
+[22:14:11:442] [INFO] - org.apache.struts2.spring.StrutsSpringObjectFactory.<init>(StrutsSpringObjectFactory.java:73) - Initializing Struts-Spring integration...
+[22:14:11:469] [INFO] - com.opensymphony.xwork2.spring.SpringObjectFactory.setAutowireStrategy(SpringObjectFactory.java:104) - Setting autowire strategy to name
+[22:14:11:470] [INFO] - org.apache.struts2.spring.StrutsSpringObjectFactory.<init>(StrutsSpringObjectFactory.java:139) - ... initialized Struts-Spring integration successfully
